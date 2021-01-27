@@ -1,0 +1,40 @@
+function main(){
+    beeper_left();
+    upleft();
+    beeper_right();
+    upright();
+    beeper_left();
+    upleft();
+    beeper_right();
+    upright();
+    beeper_left();
+    
+}
+function  beeper_left(){
+   putBeeper();
+   move();
+   move();
+    putBeeper();
+    move();
+     move();
+    putBeeper();
+}
+   function  beeper_right(){
+      move();
+      putBeeper();
+      move();
+      move();
+   putBeeper();
+   move();
+   }
+   function upleft(){
+      turnLeft();
+   move();
+   turnLeft();
+   }
+   function upright(){
+      turnRight();
+   move();
+   turnRight();
+   }
+      
